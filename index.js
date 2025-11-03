@@ -8,16 +8,16 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,1961,1961]]},
-		{name:"index_atlas_2", frames: [[0,0,1766,1766]]},
-		{name:"index_atlas_3", frames: [[0,0,1641,1641]]},
+		{name:"index_atlas_1", frames: [[1310,715,243,243],[0,379,1468,334],[852,1051,492,190],[0,1051,850,258],[0,715,1308,334],[0,0,1705,377]]},
+		{name:"index_atlas_2", frames: [[0,1348,1895,495],[0,0,1346,1346]]},
+		{name:"index_atlas_3", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_4", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_5", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_6", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_7", frames: [[0,0,1620,1620]]},
-		{name:"index_atlas_8", frames: [[0,0,1620,1620]]},
-		{name:"index_atlas_9", frames: [[0,1348,1895,495],[0,0,1346,1346]]},
-		{name:"index_atlas_10", frames: [[1310,715,243,243],[0,379,1468,334],[852,1051,492,190],[0,1051,850,258],[0,715,1308,334],[0,0,1705,377]]}
+		{name:"index_atlas_8", frames: [[0,0,1641,1641]]},
+		{name:"index_atlas_9", frames: [[0,0,1766,1766]]},
+		{name:"index_atlas_10", frames: [[0,0,1961,1961]]}
 ];
 
 
@@ -97,113 +97,113 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.CachedBmp_33 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_32 = function() {
-	this.initialize(ss["index_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_31 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_30 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Cichlidogyrus_vetusmolendarius = function() {
-	this.initialize(ss["index_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Cimex_lectularius_03 = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Clonorchis_sinensis = function() {
-	this.initialize(ss["index_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Diplozoon_nipponicum = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Fasciola_hepatica_07 = function() {
-	this.initialize(ss["index_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Ixodes_ricinus_03 = function() {
-	this.initialize(ss["index_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Lamproglena_monodi = function() {
+(lib.CachedBmp_42 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_39 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_38 = function() {
+	this.initialize(ss["index_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_37 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_36 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_35 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_34 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Cichlidogyrus_vetusmolendarius = function() {
+	this.initialize(ss["index_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Cimex_lectularius_03 = function() {
+	this.initialize(ss["index_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Clonorchis_sinensis = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Diplozoon_nipponicum = function() {
+	this.initialize(ss["index_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Fasciola_hepatica_07 = function() {
+	this.initialize(ss["index_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Ixodes_ricinus_03 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Lamproglena_monodi = function() {
+	this.initialize(ss["index_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Rajonchocotyleemarginata = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Schistosoma_mansoni_female_04 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -343,7 +343,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(1).to({graphics:mask_graphics_1,x:0,y:0}).wait(9));
 
 	// icons
-	this.instance = new lib.CachedBmp_33();
+	this.instance = new lib.CachedBmp_42();
 	this.instance.setTransform(-40.45,-40.45,0.3333,0.3333);
 
 	this.instance_1 = new lib.Ixodes_ricinus_03();
@@ -532,10 +532,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_39();
 	this.instance.setTransform(-244.6,-54.95,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_32();
+	this.instance_1 = new lib.CachedBmp_38();
 	this.instance_1.setTransform(-311.9,-82.9,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -558,10 +558,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_14();
+	this.instance = new lib.CachedBmp_37();
 	this.instance.setTransform(-81.95,-30.8,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_31();
+	this.instance_1 = new lib.CachedBmp_36();
 	this.instance_1.setTransform(-141.95,-38.3,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -584,10 +584,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_35();
 	this.instance.setTransform(-128.2,-58.15,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_30();
+	this.instance_1 = new lib.CachedBmp_34();
 	this.instance_1.setTransform(-181.15,-67.4,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
