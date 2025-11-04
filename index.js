@@ -8,7 +8,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[1310,715,243,243],[0,379,1468,334],[852,1051,492,190],[0,1051,850,258],[0,715,1308,334],[0,0,1705,377]]},
+		{name:"index_atlas_1", frames: [[1705,825,302,84],[1470,379,393,356],[1705,911,302,84],[1705,997,302,84],[1707,245,302,86],[1346,1095,303,76],[1651,1219,302,52],[1346,1230,302,52],[1310,737,393,356],[1705,737,302,86],[1705,1083,303,77],[1650,1273,302,52],[1651,1162,303,55],[1346,1284,302,52],[1346,1173,303,55],[1310,715,3,3],[1707,0,243,243],[0,379,1468,334],[852,1095,492,190],[0,1051,850,258],[0,715,1308,334],[0,0,1705,377]]},
 		{name:"index_atlas_2", frames: [[0,1348,1895,495],[0,0,1346,1346]]},
 		{name:"index_atlas_3", frames: [[0,0,1620,1620]]},
 		{name:"index_atlas_4", frames: [[0,0,1620,1620]]},
@@ -97,51 +97,163 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.CachedBmp_42 = function() {
+(lib.CachedBmp_28 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_39 = function() {
+(lib.CachedBmp_60 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_38 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_37 = function() {
+(lib.CachedBmp_26 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_36 = function() {
+(lib.CachedBmp_24 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_35 = function() {
+(lib.CachedBmp_22 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_34 = function() {
+(lib.CachedBmp_51 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_56 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_47 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_57 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_61 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_58 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["index_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["index_atlas_1"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -343,47 +455,91 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(1).to({graphics:mask_graphics_1,x:0,y:0}).wait(9));
 
 	// icons
-	this.instance = new lib.CachedBmp_42();
+	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(-40.45,-40.45,0.3333,0.3333);
 
-	this.instance_1 = new lib.Ixodes_ricinus_03();
-	this.instance_1.setTransform(-50,-50,0.0617,0.0617);
+	this.instance_1 = new lib.CachedBmp_10();
+	this.instance_1.setTransform(-49.9,33.05,0.3333,0.3333);
 
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("Ag5BmQgnABAAgoIAAh8QAAgpAnAAIBzAAQAnAAAAApIAAB8QAAAogngBg");
-	this.shape.setTransform(0.5303,0.553,0.0499,0.0551);
+	this.instance_2 = new lib.CachedBmp_61();
+	this.instance_2.setTransform(-50.45,32.35,0.3333,0.3333);
 
-	this.instance_2 = new lib.Fasciola_hepatica_07();
-	this.instance_2.setTransform(-50,-50,0.0617,0.0617);
+	this.instance_3 = new lib.Ixodes_ricinus_03();
+	this.instance_3.setTransform(-50,-50,0.0617,0.0617);
 
-	this.instance_3 = new lib.Diplozoon_nipponicum();
-	this.instance_3.setTransform(-50,-50,0.0566,0.0566);
+	this.instance_4 = new lib.CachedBmp_58();
+	this.instance_4.setTransform(0,0,0.3333,0.3333);
 
-	this.instance_4 = new lib.Clonorchis_sinensis();
-	this.instance_4.setTransform(-50,-50,0.0617,0.0617);
+	this.instance_5 = new lib.CachedBmp_14();
+	this.instance_5.setTransform(-49.9,33.05,0.3333,0.3333);
 
-	this.instance_5 = new lib.Cimex_lectularius_03();
-	this.instance_5.setTransform(-50,-50,0.0617,0.0617);
+	this.instance_6 = new lib.CachedBmp_57();
+	this.instance_6.setTransform(-50.45,32.35,0.3333,0.3333);
 
-	this.instance_6 = new lib.Lamproglena_monodi();
-	this.instance_6.setTransform(-50,-50,0.051,0.051);
+	this.instance_7 = new lib.Fasciola_hepatica_07();
+	this.instance_7.setTransform(-50,-50,0.0617,0.0617);
 
-	this.instance_7 = new lib.Rajonchocotyleemarginata();
-	this.instance_7.setTransform(-50,-50,0.0609,0.0609);
+	this.instance_8 = new lib.CachedBmp_16();
+	this.instance_8.setTransform(-51.1,21.15,0.3333,0.3333);
 
-	this.instance_8 = new lib.Schistosoma_mansoni_female_04();
-	this.instance_8.setTransform(-50,-50,0.0617,0.0617);
+	this.instance_9 = new lib.CachedBmp_47();
+	this.instance_9.setTransform(-50.45,24.6,0.3333,0.3333);
 
-	this.instance_9 = new lib.Cichlidogyrus_vetusmolendarius();
-	this.instance_9.setTransform(-50,-50,0.0743,0.0743);
+	this.instance_10 = new lib.Diplozoon_nipponicum();
+	this.instance_10.setTransform(-50,-50,0.0566,0.0566);
 
-	var maskedShapeInstanceList = [this.instance,this.instance_1,this.shape,this.instance_2,this.instance_3,this.instance_4,this.instance_5,this.instance_6,this.instance_7,this.instance_8,this.instance_9];
+	this.instance_11 = new lib.CachedBmp_18();
+	this.instance_11.setTransform(-49.9,33.05,0.3333,0.3333);
+
+	this.instance_12 = new lib.Clonorchis_sinensis();
+	this.instance_12.setTransform(70.65,-0.1,0.0617,0.0617,134.9298);
+
+	this.instance_13 = new lib.CachedBmp_56();
+	this.instance_13.setTransform(-65.55,-59.35,0.3333,0.3333);
+
+	this.instance_14 = new lib.CachedBmp_20();
+	this.instance_14.setTransform(-49.9,33.05,0.3333,0.3333);
+
+	this.instance_15 = new lib.Cimex_lectularius_03();
+	this.instance_15.setTransform(49.9,-50.05,0.0617,0.0617,89.9292);
+
+	this.instance_16 = new lib.CachedBmp_22();
+	this.instance_16.setTransform(-50.75,22.1,0.3333,0.3333);
+
+	this.instance_17 = new lib.CachedBmp_51();
+	this.instance_17.setTransform(-51.35,25.65,0.3333,0.3333);
+
+	this.instance_18 = new lib.Lamproglena_monodi();
+	this.instance_18.setTransform(-49.95,-49.95,0.051,0.051);
+
+	this.instance_19 = new lib.CachedBmp_24();
+	this.instance_19.setTransform(-50.3,22.95,0.3333,0.3333);
+
+	this.instance_20 = new lib.Rajonchocotyleemarginata();
+	this.instance_20.setTransform(-50,-58.8,0.0609,0.0609);
+
+	this.instance_21 = new lib.CachedBmp_26();
+	this.instance_21.setTransform(-50.25,23.8,0.3333,0.3333);
+
+	this.instance_22 = new lib.Schistosoma_mansoni_female_04();
+	this.instance_22.setTransform(-50,41.9,0.0617,0.0617,-89.9292);
+
+	this.instance_23 = new lib.CachedBmp_28();
+	this.instance_23.setTransform(-50.3,22.1,0.3333,0.3333);
+
+	this.instance_24 = new lib.Cichlidogyrus_vetusmolendarius();
+	this.instance_24.setTransform(-50.05,47.1,0.0743,0.0743,-89.9412);
+
+	this.instance_25 = new lib.CachedBmp_60();
+	this.instance_25.setTransform(-65.55,-59.35,0.3333,0.3333);
+
+	var maskedShapeInstanceList = [this.instance,this.instance_1,this.instance_2,this.instance_3,this.instance_4,this.instance_5,this.instance_6,this.instance_7,this.instance_8,this.instance_9,this.instance_10,this.instance_11,this.instance_12,this.instance_13,this.instance_14,this.instance_15,this.instance_16,this.instance_17,this.instance_18,this.instance_19,this.instance_20,this.instance_21,this.instance_22,this.instance_23,this.instance_24,this.instance_25];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.shape},{t:this.instance_1}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_3}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.instance_7}]},1).to({state:[{t:this.instance_8}]},1).to({state:[{t:this.instance_9}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]},1).to({state:[{t:this.instance_10},{t:this.instance_9},{t:this.instance_8}]},1).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_6},{t:this.instance_11}]},1).to({state:[{t:this.instance_15},{t:this.instance_6},{t:this.instance_14}]},1).to({state:[{t:this.instance_18},{t:this.instance_17},{t:this.instance_16}]},1).to({state:[{t:this.instance_13},{t:this.instance_20},{t:this.instance_6},{t:this.instance_19}]},1).to({state:[{t:this.instance_13},{t:this.instance_22},{t:this.instance_6},{t:this.instance_21}]},1).to({state:[{t:this.instance_25},{t:this.instance_24},{t:this.instance_2},{t:this.instance_23}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -532,10 +688,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_39();
+	this.instance = new lib.CachedBmp_6();
 	this.instance.setTransform(-244.6,-54.95,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_38();
+	this.instance_1 = new lib.CachedBmp_5();
 	this.instance_1.setTransform(-311.9,-82.9,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -558,10 +714,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_37();
+	this.instance = new lib.CachedBmp_4();
 	this.instance.setTransform(-81.95,-30.8,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_36();
+	this.instance_1 = new lib.CachedBmp_3();
 	this.instance_1.setTransform(-141.95,-38.3,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -584,10 +740,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_35();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-128.2,-58.15,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_34();
+	this.instance_1 = new lib.CachedBmp_1();
 	this.instance_1.setTransform(-181.15,-67.4,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
